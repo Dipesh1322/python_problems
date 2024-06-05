@@ -20,9 +20,13 @@ def concatenated_list_method_3(array):
 def concatenated_list_method_4(array):
 	return [i for i in array] + array
 
+def concatenated_list_method_5(array):
+	return array + array
+
 lst = [1,2,3]
 print(concatenated_list(lst))
 print(concatenated_list_method_1(lst))
 print(concatenated_list_method_2(lst))
 print(concatenated_list_method_3(lst))
 print(concatenated_list_method_4(lst))
+print(concatenated_list_method_5(lst))
